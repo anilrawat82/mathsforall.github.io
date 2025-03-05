@@ -1,0 +1,160 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Models/WebPages/DesignAlgo.Master" AutoEventWireup="true" CodeBehind="bucketSort.aspx.cs" Inherits="bucketSort" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+     <link type="text/css" rel="stylesheet" href="../../Css/Common.css" />
+    <link type="text/css" rel="stylesheet" href="../../Css/SortingAlgo.css" />
+    <link href="../../Css/LatestCommon.css" rel="stylesheet" />
+    <script type="text/javascript" src="../../JavaScript/Common.js"></script>
+    
+     <script>
+
+         let SortingNum = "";
+         let BucketSize = "";
+         function SetLastNumber(Values1, values2)
+         {
+             
+             SortingNum = Values1;
+             BucketSize = values2;
+         }
+         function SetLast_Number(va) {
+             
+             document.getElementById('txtbucketSize').value = BucketSize;
+             document.getElementById('txtNumberForSorting').value = SortingNum;
+         }
+         function GenerateMatrixRadix(Values) {
+             document.getElementById('txtNumberForSorting').value = Values;
+             GenerateMatrix('txtNumberForSorting');
+
+         }
+     
+
+         function GenerateMatrix(id) {
+             let MatrixArea;
+             let QuestionId = 0;
+             let sSortingNumbers = 0;
+             let sBucketSize = 0;
+             if (id == "txtNumberForSorting")
+             {
+                 sSortingNumbers = document.getElementById(id).value;
+                 sBucketSize = document.getElementById('txtbucketSize').value; 
+                 MatrixArea = document.getElementById('MatrixArea');
+
+             }
+
+             var pageUrl = '<%= ResolveUrl("~/Models/WebPages/DSA/bucketSort.aspx/GenerateMatrix") %>';
+
+             var xhttp = new XMLHttpRequest();
+
+
+             xhttp.open("POST", pageUrl, true);
+
+             xhttp.setRequestHeader("Content-type", "application/json");
+
+             const JsonInput = {
+                 sSortingNumbers: "",
+                 sBucketSize: "",
+             };
+
+             JsonInput.sSortingNumbers = sSortingNumbers;
+             JsonInput.sBucketSize = Number(sBucketSize);
+
+
+             const jsonString = JSON.stringify(JsonInput);
+
+
+             
+             xhttp.onload = function () {
+                 if (this.status == 200) {
+
+                     let myArr = JSON.parse(xhttp.responseText);
+                     str = "";
+                     for (key in myArr) {
+                         str += myArr[key];
+                     }
+
+                     MatrixArea.innerHTML = str;
+
+                 }
+                 else {
+                     alert("error Now");
+                 }
+             }
+
+
+             xhttp.send(jsonString);
+
+
+         }
+  </script>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+     <body onload="SetLast_Number('hi')">
+        <div>
+            <h1 class="PageNameHeading">BUCKET SORT</h1>
+        </div>
+        <div>
+            <table>
+             <tr>
+                    <td>
+                        <label>
+                            <h2  class="NameDateScore">Name</h2>
+                            <input  id="txtName" type="text"  runat="server" name="txtName" class="textName" />
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            <h2 class="NameDateScore">Date</h2>
+                            <asp:Label ID="LblDateTime" runat="server" Text="Label" class="textDate"></asp:Label>
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            <h2 class="NameDateScore">Score :</h2>
+                            <h2 id="hScore" class="textScore"></h2>
+
+                        </label>
+                    </td>
+                </tr>
+               <tr>
+                    <td>
+                        <label class="InputID">Enter atleast 2 Numbers For Sorting with comma Sepration like(23,36,45..) </label>
+                    </td>
+                    <td colspan="2">
+                        <input id="txtNumberForSorting" type="text" name="txtMatrixOrder"  class="MatrixOrder" />
+                    </td>
+                    <%--<td><asp:TextBox runat="server" id="txtD"    /></td>--%>
+                </tr>
+                     <tr>
+                    <td>
+                        <label class="InputID">Enter bucket size </label>
+                    </td>
+                    <td colspan="2">
+                        <input id="txtbucketSize" type="text" name="txtMatrixOrder"  class="MatrixOrder" value="1" />
+                    </td>
+                    <%--<td><asp:TextBox runat="server" id="txtD"    /></td>--%>
+                </tr>
+                  <tr>
+                    <td colspan="3">
+
+                        <input  class="CTestYourSelf" id="btnCreate" type="button" value="Solve " onclick="GenerateMatrix('txtNumberForSorting');" />
+                        </td>
+                    <%--<td><asp:TextBox runat="server" id="txtD"    /></td>--%>
+                </tr>
+                
+                
+              
+
+
+
+            </table>
+        </div>
+
+
+
+        <div id="MatrixArea">
+        </div>
+       
+     
+
+
+    </body>
+</asp:Content>

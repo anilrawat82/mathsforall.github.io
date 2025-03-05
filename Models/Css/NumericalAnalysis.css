@@ -1,0 +1,255 @@
+﻿.SVGPoints {
+    fill: blue;
+    stroke: blue;
+    stroke-width: 5;
+}
+
+.SVGFxFunction {
+    fill: yellowgreen;
+    stroke: yellowgreen;
+    stroke-width: 3;
+}
+
+.SVGRectagle {
+    fill: cadetblue;
+    stroke: burlywood;
+    stroke-width: 5;
+}
+
+.SVGElementH {
+    stroke: chocolate;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.SVGDashLine {
+    stroke: yellow;
+    stroke-dasharray: 5,5;
+    stroke-width: 3;
+}
+
+.SVGElementX {
+    stroke: black;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.SortingComparision {
+    border: 1px palevioletred solid;
+    background-color: darkslategrey;
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 200;
+}
+
+.TextInfo {
+    border: 2px palevioletred solid;
+    background-color: antiquewhite;
+    color: crimson;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+.SortingComparision {
+    border: 1px palevioletred solid;
+    background-color: darkslategrey;
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 200;
+}
+
+.Index {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border: 4px solid #808080;
+    color: black;
+    background-color: darkcyan;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+
+.InputMatrixvalue {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border: 4px solid #808080;
+    color: forestgreen;
+    background-color: darkgray;
+    font-family: 'Franklin Gothic';
+    font-size: 20px;
+}
+
+.NOTEText {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border: 4px solid #808080;
+    color: maroon;
+    background-color: darkgray;
+    font-family: 'Franklin Gothic';
+    font-size: 20px;
+}
+
+.SolMatrixvalue {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border: 4px solid #808080;
+    color: chartreuse;
+    font-family: 'Franklin Gothic';
+    font-size: 18px;
+    background-color: darkslategrey;
+}
+
+.AMatrixvalue {
+    width: 90%;
+    height: 80%;
+    border: solid #554b4b;
+    background-color: darkslategrey;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.DivisionNTD {
+    width: auto;
+    height: auto;
+    border: none;
+    border-bottom: solid;
+    background-color: darkslategrey;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.DivisionDTD {
+    width: auto;
+    height: auto;
+    border: none;
+    background-color: darkslategrey;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.DivisionBracketLeft {
+    width: auto;
+    height: auto;
+    border: none;
+    background-color: darkslategrey;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-align: right;
+}
+
+.DivisionBracketWithConstant {
+    width: auto;
+    height: auto;
+    border: none;
+    background-color: darkslategrey;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: left;
+}
+
+.DivisionBracketLeftRight {
+    width: auto;
+    height: auto;
+    border: none;
+    background-color: darkslategrey;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-align: left;
+}
+
+.DivisionBracketright {
+    width: auto;
+    height: auto;
+    border: none;
+    background-color: darkslategrey;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-align: left;
+}
+.HeaderCaption {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: darkslategrey;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: left;
+}
+.Headerlabel {
+    width: 30%;
+    height: 100%;
+    border: none;
+    background-color: darkslategrey;
+    color: orange;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: left;
+}
+
+
+.signSymbol {
+    width: auto;
+    height: auto;
+    border: none;
+    background-color: darkslategrey;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.AnswerTable {
+    width: auto;
+    height: auto;
+    border: none;
+    background-color: darkslategrey;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+.AnswerTableL {
+    /*width: auto;
+    height: auto;*/
+    border: none;
+    background-color: darkslategrey;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+.ErrorElement {
+    border: 8px palevioletred solid;
+    background-color: darkkhaki;
+    color: red;
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.SummationTable {
+    border: 10px palevioletred solid;
+    background-color: #808080;
+    color: darkorange;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}

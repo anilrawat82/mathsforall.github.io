@@ -1,0 +1,54 @@
+﻿
+.MensurationInput {
+    width: 90%;
+    border: solid #554b4b;
+    color: #ff6a00;
+    text-align: left;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.CalculateAnswer {
+    width: 150px;
+    border: solid #0094ff;
+    color: #ffd800;
+    float:right;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.CalculateAnswerA {
+    width:150px;
+    border: solid #0094ff;
+    color: #4cff00;
+    float: right;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.AnswerText {
+    width: 80px;
+    color: #0094ff;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.txtSolution {
+    border: 5px palevioletred solid;
+    background-color: #808080;
+    color: white;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width:100px;
+}
+.
+.CalculateAnswer:hover {
+    cursor: pointer;
+    background-color: #ff6a00;
+}
+.CalculateAnswerA:hover {
+    cursor: pointer;
+    background-color: #ff6a00;
+}

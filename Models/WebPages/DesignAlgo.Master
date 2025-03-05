@@ -1,0 +1,178 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="DesignAlgo.master.cs" Inherits="DesignAlgorithms.Models.WebPages.DesignAlgo" %>
+
+<!DOCTYPE html>
+
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css">
+
+    <link href="../BootStrap/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../Css/MasterPage.css" />
+    <script src="../JavaScript/MasterPage.js" type="text/javascript">    </script>
+    <style>
+        .DropClassOne {
+            color: #ffd800;
+            font-size: 12px;
+        }
+
+        .auto-style1 {
+            height: 31px;
+            background-color: antiquewhite;
+            color: brown;
+            font-size: x-large;
+            font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        }
+    </style>
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+
+
+        <table>
+            <tr id="HEADER2">
+                <td colspan="2">MATHS FOR US</td>
+
+            </tr>
+            <tr>
+                <td class="MarqueeHeading">New Pages Added Recently
+                </td>
+                <td>
+                    <div class="Marquee1">
+                        <marquee onmouseover="this.stop()" onmouseout="this.start()">
+                            <a  runat="server" href="~/Models/WebPages/DSA/InsertionSort.aspx">Insertion Sort</a>&nbsp;&nbsp; 
+                       </marquee>
+                    </div>
+                </td>
+            </tr>
+           
+            <tr>
+                <td id="TDCol1">
+                     <h3 class="CHeadLineVII">Sorting Algorithms</h3>
+                    
+                     <ul>
+                        <li><a runat="server" href="~/Models/WebPages/DSA/InsertionSort.aspx">Insertion Sort</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/DSA/bubbleSort.aspx">Bubble Sort</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/DSA/SelectionSort.aspx">Selection Sort</a><br />
+                        </li>
+                         <li><a runat="server" href="~/Models/WebPages/DSA/QuickSort.aspx">Quick Sort</a><br />
+                        </li>
+                         <li><a runat="server" href="~/Models/WebPages/DSA/ShellSort.aspx">Shell Sort</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/DSA/CountingSort.aspx">Counting Sort</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/DSA/RadixSort.aspx">Radix Sort</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/DSA/bucketSort.aspx">Bucket Sort</a><br />
+                        </li>
+                         
+                    </ul>
+
+                    <h3 class="CHeadLineVII">HEAP SORT</h3>
+                    <ul>
+                        <li><a runat="server" href="~/Models/WebPages/DSA/HeapSort.aspx">Heap Sort</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/DSA/HeapExtractMaxMin.aspx">Extract Max/Min Element</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/DSA/HeapAddDeleteModifyElement.aspx">Insert Delete Modify Element</a><br />
+                        </li>
+                    </ul>
+
+                    
+                    <h3 class="CHeadLineVII">BINOMIAL TREE AND HEAP </h3>
+                    <ul>
+                        <li><a runat="server" href="~/Models/WebPages/DSA/BinomialHeapFull.aspx">Binomial Tree</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/DSA/CBinomialHeap.aspx">Binomial Heap</a><br />
+                        </li>
+                         <li><a runat="server" href="~/Models/WebPages/DSA/MergBinomialHeap.aspx">Merge Binomial Heaps</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/DSA/BinomialHeapModifyElement.aspx">Modify Binomial Heaps</a><br />
+                        </li>
+                    </ul>
+
+                    <h3 class="CHeadLineVII">FIBONACCI TREE AND HEAP </h3>
+                    <ul>
+                        <li><a runat="server" href="~/Models/WebPages/DSA/BinomialHeapFull.aspx">Fibonacci Tree</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/DSA/Fibonacciheap.aspx">Fibonacci Heap</a><br />
+                        </li>
+                         <li><a runat="server" href="~/Models/WebPages/DSA/MergBinomialHeap.aspx">Merge Fibonacci Heaps</a><br />
+                        </li>
+                    </ul>
+                    
+                    
+                    <h3 class="CHeadLineVII">GREEDY ALGORITHMS</h3>
+                    <ul>
+                        <li><a runat="server" href="~/Models/WebPages/DSA/KnapsackProblem.aspx">Knapsack Problem </a><br /></li>
+                        
+                    </ul>
+                    <h3 class="CHeadLineVII">DYNAMIC PROGRAMMING</h3>
+                    <ul>
+                        <li><a runat="server" href="~/Models/WebPages/DSA/LCSDP.aspx">Longest Common Subsequence</a><br /></li>
+                        
+                    </ul>
+                     <h3 class="CHeadLineVII">SINGLE-SOURCE SHORTEST PATHS</h3>
+                    <ul>
+                        <li><a runat="server" href="~/Models/WebPages/DSA/Dijkstra.aspx">Dijkstra's Algorithm</a><br /></li>
+                        <li><a runat="server" href="~/Models/WebPages/DSA/BellmanFordalgorithm.aspx">Bellman-Ford Algorithm</a><br /></li>
+                    </ul>
+                     <h3 class="CHeadLineVII">MAXIMUM FLOW</h3>
+                    <ul>
+                        <li><a runat="server" href="~/Models/WebPages/DSA/MaxFlowNetwork.aspx">The Ford-Fulkerson method</a><br />
+                        </li>
+                        
+                    </ul>
+                    <h3 class="CHeadLineVII">NP-COMPLETENESS</h3>
+                    <ul>
+                        <li><a runat="server" href="~/Models/WebPages/DSA/HamiltonianCycle.aspx">Hamiltonian cycles</a><br />
+                        </li>
+                        
+                    </ul>
+                   
+                </td>
+
+                
+
+                <td id="TDCol2">
+                    <div>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </td>
+            </tr>
+            <tr id="Footer">
+                <td style="text-align: center" colspan="2">
+                    <a runat="server" href="~/Models/WebPages/MySelf.aspx">About Me</a><br />
+                    <%--  <a runat="server"  href="~/Models/WebPages/Email.aspx">mathsforus2021@gmail.com</a><br />--%>
+                </td>
+
+            </tr>
+            <tr id="Footer">
+                <td style="text-align: center" colspan="2" class="auto-style1">
+                    <asp:Label ID="VistorCounts" runat="server" Text="Total Visitor :"></asp:Label>
+                </td>
+
+            </tr>
+            <tr class="CDisclaimer">
+                <td style="text-align: center" colspan="2">Disclaimer:
+The information provided by “us” on www.mathsforus.com is for general informational purposes only. All information on the Site is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability or completeness of any information on the Site .
+
+Under no circumstance shall we have any liability to you for any loss or damage of any kind incurred as a result of the use of the site  or reliance on any information provided on the site . Your use of the site  and your reliance on any information on the site  is solely at your own risk. 
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>

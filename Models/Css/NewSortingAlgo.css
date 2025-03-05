@@ -1,0 +1,120 @@
+﻿.KeyElement {
+    border: 3px palevioletred solid;
+    background-color:darkmagenta;
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+.SortingComparision {
+    border: 3px palevioletred solid;
+    background-color: greenyellow;
+    color: maroon;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
+.SortingValueSwapB {
+    border: 1px palevioletred solid;
+    background-color: orange;
+    color: purple;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.SortingValueSwapC {
+    border: 1px palevioletred solid;
+    background-color: yellow;
+    color: darkcyan;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+.NumberSorted
+{
+    color: yellow;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+}
+.INFO6 {
+    color: yellow;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-weight: bolder;
+}
+.INFO4 {
+    border: 3px palevioletred solid;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    text-align: left;
+}
+
+.INFO7 {
+    border: 3px palevioletred solid;
+    color: coral;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    text-align: left;
+}
+
+.Continues {
+    border: 3px palevioletred solid;
+    color: orchid;
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    text-align: left;
+}
+.TextInfo {
+    border: 2px palevioletred solid;
+    color: chartreuse;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+.INFO3 {
+    border: 3px palevioletred solid;
+    color: aqua;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+.INFO2 {
+    border: 3px palevioletred solid;
+    color: darkorange;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+.INFO5 {
+    border: 3px palevioletred solid;
+    color: deeppink;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+.FinalAnswerHeading {
+    border: 3px palevioletred solid;
+    background-color: darkkhaki;
+    color: darkmagenta;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.OneLiner {
+    text-transform: uppercase;
+    font-size: large;
+    font-family: 'Book Antiqua';
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: darkslategrey;
+}

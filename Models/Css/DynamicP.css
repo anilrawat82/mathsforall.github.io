@@ -1,0 +1,61 @@
+﻿.TDPrevious {
+    border: 3px solid orange;
+    width: 100px;
+    height: 50px;
+    background-color: dimgrey;
+    color: white;
+    text-align:center;
+}
+
+.TDCurrent {
+    border: 3px solid orange;
+    width: 100px;
+    height: 50px;
+    background-color: crimson;
+    color: white;
+    text-align: center;
+}
+.TDMinimum {
+    border: 3px solid orange;
+    width: 100px;
+    height: 50px;
+    background-color: chartreuse;
+    color: dimgray;
+    text-align: center;
+
+}
+
+.TDText{
+    border: 3px solid orange;
+    width: 100px;
+    height: 50px;
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size:xx-large;
+    text-transform:capitalize;
+
+}
+.TDSOLUTION {
+    border: 5px solid darkmagenta;
+    width: 100px;
+    height: 50px;
+    background-color: olive;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-transform: capitalize;
+}
+.TDSelectedRowAndCol {
+    border: 3px solid orange;
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-transform: capitalize;
+}

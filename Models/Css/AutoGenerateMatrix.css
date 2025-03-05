@@ -1,0 +1,117 @@
+﻿
+.SubmitBtnAB {
+    width: 100%;
+    height: 100%;
+    border: solid #554b4b;
+    color: #0094ff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 40px;
+    background-color: antiquewhite;
+    text-align:center;
+}
+.HeaderTxt {
+    width: 100%;
+    height: 100%;
+    border: solid #554b4b;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 40px;
+    background-color: darkkhaki;
+    text-align:center;
+}
+.InputID {
+    text-transform: uppercase;
+    color: greenyellow;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.HeaderTxt2 {
+    width: 100%;
+    height: 100%;
+    border: solid #554b4b;
+    color: darkorchid;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 40px;
+    background-color: darkkhaki;
+    text-align: center;
+}
+.QquestionMatrixA {
+    width: 100px;
+    border: solid #554b4b;
+    color: #b200ff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:800;
+    font-size: 30px;
+    background-color:antiquewhite;
+}
+.QquestionMatrixB {
+    width: 100px;
+    border: solid #554b4b;
+    color: purple;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 800;
+    background-color: antiquewhite;
+}
+.InputLabel {
+    color: navy;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.InputText{
+    width: 90%;
+    border: solid #554b4b;
+    color: #ff6a00;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.Solution {
+    border: 3px brown solid;
+    background-color: darkslategray;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+}
+
+.TopHeader {
+    border: 5px lightseagreen solid;
+    background-color: darkslategray;
+    color: white;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+.SubHeader {
+    border: 5px lightseagreen solid;
+    background-color: darkslategray;
+    color: greenyellow;
+    font-size: 25px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+}
+.HRLine {
+    border: 2px #b200ff solid;
+    background-color: #808080;
+    color: white;
+    width:70%;
+}
+
+.SubmitBtnAB:hover {
+    cursor: pointer;
+    background-color: brown;
+}
+
+.AnswerTable {
+    width: auto;
+    height: auto;
+    border: none;
+}
+
+

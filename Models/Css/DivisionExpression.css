@@ -1,0 +1,64 @@
+﻿.AnswerTable {
+    width: auto;
+    height: auto;
+    border: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: darkslategrey;
+    text-align: center;
+}
+.TrigoSubstitute {
+    width: auto;
+    height: auto;
+    border: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: darkslategrey;
+    text-align: left;
+}
+.MainAnswerTable {
+    width: auto;
+    height: auto;
+    border: solid cyan;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: darkslategrey;
+    text-align: center;
+}
+.AnswerTableB {
+    width: auto;
+    height: auto;
+    border: solid orange;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: darkslategrey;
+    text-align: center;
+}
+.DivisionNTD {
+    border-bottom: solid;
+    color: yellow;
+}
+.DivisionDD 
+{   
+    border-bottom: solid;   
+    color: yellow;   
+}
+.BackGround {
+    width: auto;
+    height: auto;
+    border: none;
+    background-color: darkslategrey;
+    color: white;
+}
+
+.DivisionDTD 
+{
+    border: none;    
+}
+tr, td, table {
+    border: none;
+}

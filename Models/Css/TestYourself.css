@@ -1,0 +1,78 @@
+﻿
+.TestSolution {
+    width: 100%;
+    height: 100%;
+    border: solid #554b4b;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: chartreuse;
+    text-align: center;
+    vertical-align: middle;
+    color: dimgray;
+ 
+}
+.Question{
+    width: 350px;
+    border: solid #554b4b;
+    text-align: left;
+    color: white;
+    background-color:darkolivegreen;
+    font-family: sans-serif;
+    font-size: 20px;
+    
+}
+
+.IndexDvalue {
+    background-color: wheat;
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.TestAnswer1 {
+    width: 300px;
+    height: 100%;
+    border: solid #554b4b;
+    text-align: left;
+    color: white;
+    font-family:sans-serif;
+    font-size: 20px;
+    background-color:darkslategray;
+}
+.TestAnswer2 {
+    width: 150px;
+    height: 100%;
+    border: solid #554b4b;
+    text-align: left;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #808080;
+}
+
+.OneLiner {
+    font-size: medium;
+    font-family: 'Times New Roman';
+    font-weight: normal;
+    font-size: 10px;
+    background-color: oldlace;
+    height: auto;
+}
+.ValueNoWrap {
+    height:100%;
+    border: none;
+    color: lightseagreen;
+    font-family: Arial;
+    white-space: nowrap;
+    font-size: 20px;
+    text-align: left;
+}
+.LineDrawing {
+    height: 100%;
+    border: none;
+    color: black;
+    font-family: Arial;
+    white-space: nowrap;
+    font-size: 8px;
+    text-align: left;
+}

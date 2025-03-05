@@ -1,0 +1,321 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="DesignAlgorithms.Models.WebPages.Master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css">
+
+    <link href="../BootStrap/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../Css/MasterPage.css" />
+    <script src="../JavaScript/MasterPage.js" type="text/javascript">    </script>
+    <style>
+        .DropClassOne {
+            color: #ffd800;
+            font-size: 12px;
+        }
+
+        .auto-style1 {
+            height: 31px;
+            background-color: antiquewhite;
+            color: brown;
+            font-size: x-large;
+            font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        }
+    </style>
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+
+
+        <table>
+            <tr id="HEADER2">
+                <td colspan="2">MATHS FOR US</td>
+
+            </tr>
+            <tr>
+                <td class="MarqueeHeading">New Pages Added Recently
+                </td>
+                <td>
+                    <div class="Marquee1">
+                        <marquee onmouseover="this.stop()" onmouseout="this.start()">
+                            <a  runat="server" href="~/Models/WebPages/Class8/FactorizationByGrouping.aspx">Factorize the Expression By Regrouping </a>&nbsp;&nbsp; 
+                       </marquee>
+                    </div>
+                </td>
+            </tr>
+            <%-- <tr>
+                <td></td>
+                <td  style="background-color:antiquewhite">
+                    <div class="col-md-4">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-info  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" >
+                            Primary Class
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a  runat="server"  class="dropdown-item" style="color:#ffd800;font-size:12px;" href="~/Models/WebPages/Elementary/Counting.aspx">Counting</a></li>
+                            <li><a   runat="server" class="dropdown-item" style="color:#ffd800;font-size:12px;" href="~/Models/WebPages/Elementary/MissingNumbers.aspx">Missing Numbers</a></li>
+                            <li><a  runat="server" class="dropdown-item" style="color:#ffd800;font-size:12px;" href="~/Models/WebPages/Elementary/NumberToWord.aspx">Write Number in Text Form</a></li>
+                            <li><a  runat="server" class="dropdown-item" style="color:#ffd800;font-size:12px;" href="~/Models/WebPages/Elementary/RandomNumberToWord.aspx">Write RandomNumber in Text Form</a></li>
+                            <li><a  runat="server" class="dropdown-item" style="color:#ffd800;font-size:12px;"  href="~/Models/WebPages/Elementary/SmallestLargest.aspx">Largest and Smallest Number</a></li>
+
+                            <li>
+                                <hr class="dropdown-divider" >
+                            </li>
+                            <li><a  runat="server" class="dropdown-item" style="color:#b6ff00;font-size:12px;" href="~/Models/WebPages/Elementary/Addition.aspx">Addition</a></li>
+                            <li><a  runat="server" class="dropdown-item" style="color:#b6ff00;font-size:12px;"  href="~/Models/WebPages/Elementary/Subtraction.aspx">Subtraction</a></li>
+                            <li><a  runat="server" class="dropdown-item" style="color:#b6ff00;font-size:12px;"  href="~/Models/WebPages/Elementary/WriteTable.aspx">WriteTable</a></li>
+                            <li><a  runat="server" class="dropdown-item" style="color:#b6ff00;font-size:12px;" href="~/Models/WebPages/Elementary/WriteRandomTable.aspx">WriteRandomTable</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="left: 0px; top: 0px" >
+                            Medium Class
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a runat="server"  class="dropdown-item" style="color:#ffd800;font-size:12px;"  href="~/Models/WebPages/Elementary/AscendingDescending.aspx">Ascending or Descending </a></li>
+                            <li><a runat="server"  class="dropdown-item" style="color:#ffd800;font-size:12px;"  href="~/Models/WebPages/ElementaryB/ExpandedForm.aspx">Expanding Form</a></li>
+                            <li><a runat="server"  class="dropdown-item" style="color:#ffd800;font-size:12px;"  href="~/Models/WebPages/ElementaryB/StandardForm.aspx">Standard Form</a></li>
+                            <li><a runat="server"  class="dropdown-item" style="color:#ffd800;font-size:12px;"  href="~/Models/WebPages/Elementary/LCMSolution.aspx">LCM OF NUMBERS</a></li>
+                            <li><a runat="server"  class="dropdown-item" style="color:#ffd800;font-size:12px;"  href="~/Models/WebPages/Elementary/HCFSolution.aspx">HCF/GCF/GCD of Numbers</a></li>
+                            <li><a runat="server"  class="dropdown-item" style="color:#ffd800;font-size:12px;"  href="~/Models/WebPages/Elementary/LargestFraction.aspx">Largest and Smallest FractionNumbers</a></li>
+                            <li><a runat="server"  class="dropdown-item" style="color:#ffd800;font-size:12px;"  href="~/Models/WebPages/Elementary/solveFraction.aspx">Solve Fraction Values</a></li>
+                            <li><a runat="server"  class="dropdown-item" style="color:#ffd800;font-size:12px;" href="~/Models/WebPages/Elementary/ConvertDecimalToFraction.aspx">Convert Decimal To Fraction</a></li>
+                            
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a runat="server"  class="dropdown-item" style="color:#b6ff00;font-size:12px;" href="~/Models/WebPages/Elementary/Multiply.aspx">Multiplication</a></li>
+                            <li><a runat="server"  class="dropdown-item"  style="color:#b6ff00;font-size:12px;" href="~/Models/WebPages/Elementary/Division.aspx">Division of Numbers </a></li>
+                            <li><a runat="server"  class="dropdown-item" style="color:#b6ff00;font-size:12px;"  href="~/Models/WebPages/Elementary/EquationInOneVariable.aspx">Equation In One Variable</a></li>
+                            <li><a runat="server"  class="dropdown-item" style="color:#b6ff00;font-size:12px;"  href="~/Models/WebPages/Elementary/QuadraticEqun.aspx">Quadratic Equation</a></li>
+                             <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a runat="server"  class="dropdown-item" style="color:#b6ff00;font-size:12px;" href="~/Models/WebPages/Class8/SquareThroughSubtraction.aspx">Square Root By Subtraction Method</a></li>
+                            <li><a runat="server"  class="dropdown-item" style="color:#b6ff00;font-size:12px;" href="~/Models/WebPages/Class8/SquareRootByPrimeFactorization.aspx">Prime Factorization Method</a></li>
+                            <li><a runat="server"  class="dropdown-item"  style="color:#b6ff00;font-size:12px;" href="~/Models/WebPages/Elementary/SquareRoot.aspx">Square Root Long Division Method </a></li>
+                            <li><a runat="server"  class="dropdown-item" style="color:#b6ff00;font-size:12px;" href="~/Models/WebPages/Class8/CubeRoot.aspx">Cube Root</a></li>
+                        </ul>
+                    </div>
+
+                        <div class="btn-group">
+                        <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="left: 0px; top: 0px" >
+                            Higher Class
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a runat="server"  class="dropdown-item" style="color:#ffd800;font-size:12px;"  href="~/Models/WebPages/Elementary/ProfitLoass.aspx">Profit/Loss</a></li>
+                            <li><a runat="server"  class="dropdown-item" style="color:#ffd800;font-size:12px;"  href="~/Models/WebPages/Elementary/PrincipleInterest.aspx">Simple & Compound Interest</a></li>
+                            <li><a runat="server"  class="dropdown-item" style="color:#ffd800;font-size:12px;"  href="~/Models/WebPages/Elementary/Permutation.aspx">Permutation and Combination</a></li>
+                            <li>
+                                <hr class="dropdown-divider" >
+                            </li>
+                            <li><a runat="server"  class="dropdown-item" style="color:burlywood;font-size:12px;" href="~/Models/WebPages/Class10/Trigonometry.aspx">Trigonometry Calculation</a></li>
+                            <li><a runat="server"  class="dropdown-item" style="color:burlywood;font-size:12px;" href="~/Models/WebPages/Class10/TrigoWithSpecificAngle.aspx">Trigonometric Ratio of Some Specific Angles</a></li>
+                            
+                            <li>
+                                <hr class="dropdown-divider" >
+                            </li>
+                            <li><a runat="server"  class="dropdown-item" style="color:#b6ff00;font-size:12px;" href="~/Models/WebPages/Elementary/Mensuration2.aspx">Circle and Sector and Segment</a></li>
+                            <li><a runat="server"  class="dropdown-item"  style="color:#b6ff00;font-size:12px;" href="~/Models/WebPages/Elementary/Mensuration3.aspx">Rectangle and Square</a></li>
+                            <li><a runat="server"  class="dropdown-item" style="color:#b6ff00;font-size:12px;"  href="~/Models/WebPages/Elementary/ConicSection.aspx">Straight Line</a></li>
+                            
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li><a runat="server"  class="dropdown-item" style="color:antiquewhite;font-size:12px;"  href="~/Models/WebPages/Matrices/MatrixCreation.aspx">Diffrent Type of Matrices</a></li>
+                            <li><a runat="server"  class="dropdown-item" style="color:antiquewhite;font-size:12px;"  href="~/Models/WebPages/Matrices/MatrixAdditionSubtraction.aspx">Matrix Addition and Subtraction</a></li>
+                            <li><a runat="server"  class="dropdown-item" style="color:antiquewhite;font-size:12px;"  href="~/Models/WebPages/Matrices/MatrixMultiply.aspx">Matrix Multiply</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="left: 0px; top: 0px ; color:aqua " >
+                            Operations Management
+                        </button>
+                          <ul class="dropdown-menu">
+                            <li><a runat="server"  class="dropdown-item" style="color:chartreuse;font-size:12px;"  href="~/Models/WebPages/OR/Transportation.aspx">Transportation Problem</a></li>
+                            <li><a runat="server"  class="dropdown-item" style="color:chartreuse;font-size:12px;"  href="~/Models/WebPages/OR/AssignmentProblem.aspx">Assignment Problem(Hungarian Method)</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="left: 0px; top: 0px ; color:aqua " >
+                            Advance Maths
+                        </button>
+                          <ul class="dropdown-menu">
+                            <li><a runat="server"  class="dropdown-item" style="color:chartreuse;font-size:12px;"  href="~/Models/WebPages/LUPDecomposition.aspx">LUP Decomposition </a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+                </td>
+            </tr>--%>
+            <tr>
+                <td id="TDCol1">
+                    <a runat="server" href="~/Models/WebPages/Elementary/Counting.aspx">Counting</a><br />
+                    <a runat="server" href="~/Models/WebPages/Elementary/MissingNumbers.aspx">Missing Numbers</a><br />
+                    <a runat="server" href="~/Models/WebPages/Elementary/NumberToWord.aspx">Write Number in Text Form</a><br />
+                    <a runat="server" href="~/Models/WebPages/Elementary/RandomNumberToWord.aspx">Write RandomNumber in Text Form</a><br />
+                    <a runat="server" href="~/Models/WebPages/Elementary/SmallestLargest.aspx">Largest and Smallest Number</a><br />
+                    <a runat="server" href="~/Models/WebPages/Elementary/Addition.aspx">Addition</a><br />
+                    <a runat="server" href="~/Models/WebPages/Elementary/Subtraction.aspx">Subtraction</a><br />
+                    <a runat="server" href="~/Models/WebPages/Elementary/WriteTable.aspx">Write Table</a><br />
+                    <a runat="server" href="~/Models/WebPages/Elementary/WriteRandomTable.aspx">Write Random Table</a><br />
+                    <a runat="server" href="~/Models/WebPages/Elementary/AscendingDescending.aspx">Ascending or Descending</a><br />
+                    <a runat="server" href="~/Models/WebPages/ElementaryB/ExpandedForm.aspx">Expanding Form</a><br />
+                    <a runat="server" href="~/Models/WebPages/ElementaryB/StandardForm.aspx">Standard Form</a><br />
+                    <a runat="server" href="~/Models/WebPages/Elementary/LCMSolution.aspx">LCM OF NUMBERS</a><br />
+                    <a runat="server" href="~/Models/WebPages/Elementary/HCFSolution.aspx">HCF/GCF/GCD of Numbers </a>
+                    <br />
+                    <a runat="server" href="~/Models/WebPages/Elementary/LargestFraction.aspx">Largest and Smallest FractionNumbers </a>
+                    <br />
+                    <a runat="server" href="~/Models/WebPages/Elementary/solveFraction.aspx">Solve Fraction Values</a><br />
+                    <a runat="server" href="~/Models/WebPages/Elementary/ConvertDecimalToFraction.aspx">Convert Decimal To Fraction</a><br />
+                    <a runat="server" href="~/Models/WebPages/Elementary/Multiply.aspx">Multiplication</a><br />
+                    <a runat="server" href="~/Models/WebPages/Elementary/Division.aspx">Division of Numbers </a>
+                    <br />
+                    <a runat="server" href="~/Models/WebPages/EquationInOneVariable.aspx">Equation In One Variable</a><br />
+                    
+                    <br />
+                    <a runat="server" href="~/Models/WebPages/Elementary/ProfitLoass.aspx">Profit/Loss</a><br />
+                    <a runat="server" href="~/Models/WebPages/Elementary/PrincipleInterest.aspx">simple & Compound Interest </a>
+                    <br />
+                    <a runat="server" href="~/Models/WebPages/Permutation.aspx">Permutation and Combination</a><br />
+
+                    <h3 class="CHeadLineVII">Conversion (Class 3<sup>rd</sup>)</h3><ul>
+                        <li><a runat="server" href="~/Models/WebPages/Elementary/MassConversion.aspx">Mass Conversion </a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/Elementary/LiquidConversion.aspx">Liquid Conversion</a><br />
+                        </li>                        
+                    </ul>
+
+                    <h3 class="CHeadLineVII">Square Roots (Class 8<sup>th</sup>)</h3>
+                    <ul>
+                        <li><a runat="server" href="~/Models/WebPages/Class8/SquareThroughSubtraction.aspx">Subtraction Method</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/Class8/SquareRootByPrimeFactorization.aspx">Prime Factorization Method</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/Elementary/SquareRoot.aspx">Long Division Method</a><br />
+                        </li>
+                    </ul>
+                    <h3 class="CHeadLineVII">Cube Roots(Class 8<sup>th</sup>)</h3>
+                    <ul>
+                        <li><a runat="server" href="~/Models/WebPages/Class8/CubeRoot.aspx">Cube Root</a><br />
+                        </li>
+
+                    </ul>
+                    <h3 class="CHeadLineVII">Factorization(Class 8<sup>th</sup>)</h3>
+                    <ul>
+                        <li><a runat="server" href="~/Models/WebPages/Class8/Factorizaion.aspx">Find Common Factor</a><br /></li>
+                        <li><a runat="server" href="~/Models/WebPages/Class8/FactorizeExpression.aspx">Factorize the Expression</a><br /></li>
+                        <li><a  runat="server" href="~/Models/WebPages/Class8/FactorizationByGrouping.aspx">Factorize the Expression By Regrouping</a><br /></li>
+                        <li><a runat="server" href="~/Models/WebPages/Class8/FactorizationWithIdentity.aspx">Factorisation using identities</a><br /></li>
+
+                    </ul>
+
+                    
+
+                    <h3><a runat="server" href="~/Models/WebPages/Class10/Equationin2Variable.aspx" class="CHeadLine">Linear Equation in 2 variable (Class 10)</a></h3>
+                    <h3><a runat="server" href="~/Models/WebPages/Elementary/QuadraticEqun.aspx" class="CHeadLine">Quadratic Equation (Class 10)</a></h3>
+                    <h3><a runat="server" href="~/Models/WebPages/Class10/ArithmeticGeometric.aspx" class="CHeadLine">Arithmetic Progression(Class 10)</a></h3>
+                    <h3><a runat="server" href="~/Models/WebPages/Class10/CoordinateGeometry.aspx" class="CHeadLine">Coordinate Geometry(Class 10)</a></h3>
+                    <h3 class="CHeadLine">Introduction To Trigonometry For Class X</h3>
+                    <ul>
+                        <li><a runat="server" href="~/Models/WebPages/Class10/Trigonometry.aspx">Trigonometric Ratio</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/Class10/TrigoWithSpecificAngle.aspx">Trigonometric Ratio of Some Specific Angles</a><br />
+                        </li>
+                    </ul>
+                    <h3 class="CHeadLine">Mensuration For Class X</h3>
+                    <ul>
+                        <li><a runat="server" href="~/Models/WebPages/Elementary/Mensuration2.aspx">Circle and Sector and Segment</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/Elementary/Mensuration3.aspx">Rectangle and Square</a><br />
+                        </li>
+                    </ul>
+                             
+                    <h3 class="CHeadLine">Statistics (Class 10)</h3>
+                     <ul>
+                        <li><a runat="server" href="~/Models/WebPages/Class10/Statisics1.aspx">Mean of Grouped Data</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/Class10/Statistics2Mode.aspx">Mode of Grouped Data</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/Class10/StatisticsMedian.aspx">Median of Grouped Data</a><br />
+                        </li>
+                    </ul>
+                    <h3 class="CHeadLine">Conic Section</h3>
+                    <ul>
+                        <li><a runat="server" href="~/Models/WebPages/Elementary/ConicSection.aspx">Parabola</a><br /></li>
+                        <li><a runat="server" href="~/Models/WebPages/Elementary/ConicSection.aspx">Hyperbola</a><br /></li>
+                        <li><a runat="server" href="~/Models/WebPages/Elementary/ConicSection.aspx">ellipse</a><br /></li>
+
+
+                    </ul>
+                    <h3 class="CHeadLine">Matrix & Determinant</h3>
+                    <ul>
+                        <li><a runat="server" href="~/Models/WebPages/Matrices/MatrixCreation.aspx">Diffrent Type of Matrices</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/Matrices/MatrixAdditionSubtraction.aspx">Matrix Addition and Subtraction</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/Matrices/MatrixMultiply.aspx">Matrix Multiply</a><br />
+                        </li>
+                    </ul>
+                    <h3 class="CHeadLine">Operations Management</h3>
+                    <ul>
+                        <li><a runat="server" href="~/Models/WebPages/OR/Transportation.aspx">Transportation Problem</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/OR/AssignmentProblem.aspx">Assignment Problem(Hungarian Method)</a><br />
+                        </li>
+
+                    </ul>
+                    <h3 class="CHeadLine">Advance Maths</h3>
+                    <ul>
+                        <li><a runat="server" href="~/Models/WebPages/LUPDecomposition.aspx">LUP Decomposition</a><br />
+                        </li>
+                    </ul>
+
+                </td>
+
+                <td id="TDCol2">
+                    <div>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </td>
+            </tr>
+            <tr id="Footer">
+                <td style="text-align: center" colspan="2">
+                    <a runat="server" href="~/Models/WebPages/MySelf.aspx">About Me</a><br />
+                    <%--  <a runat="server"  href="~/Models/WebPages/Email.aspx">mathsforus2021@gmail.com</a><br />--%>
+                </td>
+
+            </tr>
+            <tr id="Footer">
+                <td style="text-align: center" colspan="2" class="auto-style1">
+                    <asp:Label ID="VistorCounts" runat="server" Text="Total Visitor :"></asp:Label>
+                </td>
+
+            </tr>
+            <tr class="CDisclaimer">
+                <td style="text-align: center" colspan="2">Disclaimer:
+The information provided by “us” on www.mathsforus.com is for general informational purposes only. All information on the Site is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability or completeness of any information on the Site .
+
+Under no circumstance shall we have any liability to you for any loss or damage of any kind incurred as a result of the use of the site  or reliance on any information provided on the site . Your use of the site  and your reliance on any information on the site  is solely at your own risk. 
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>

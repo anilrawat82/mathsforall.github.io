@@ -1,0 +1,161 @@
+﻿
+
+@import url('LatestCommon.css');
+.CTestYourSelf {
+    width: 100%;
+    height: 100%;
+    border: solid #554b4b;
+    color: #0094ff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 40px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.PageNameHeading {
+    text-align: center;
+    background-color: burlywood;
+    color: darkorange;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    
+}
+.PageSubHeading {
+    text-align: center;
+    background-color: burlywood;
+    color: darkslateblue;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.InputID {
+    text-transform: uppercase;
+    color: darkmagenta;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.InputIDSelection {
+    text-transform: uppercase;
+    color: chartreuse;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.OptionHead {
+    text-transform: uppercase;
+    color: darkmagenta;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darkgray;
+    width:100%;
+}
+.InputOption {
+    text-transform: uppercase;
+    color: darkolivegreen;
+    background-color: darkgray;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width:100%;
+}
+
+.InputIDA {
+    text-transform: uppercase;
+    color: crimson;
+    font-size: large;
+    font-family: 'Book Antiqua';
+    font-weight:bolder;
+}
+
+.InputIDB {
+    text-transform: uppercase;
+    color: darkblue;
+    font-size: large;
+    font-family: 'Book Antiqua';
+    font-weight: bolder;
+}
+.OneLiner {
+    text-transform: uppercase;
+    font-size: large;
+    font-family: 'Book Antiqua';
+    font-weight: bolder;
+    font-size:20px;
+    background-color:whitesmoke;
+   
+}
+
+
+.OneLinerA {
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 40px;
+    background-color: whitesmoke;
+}
+.OneLinerB {
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: whitesmoke;
+}
+.LineBreak {
+    border: 8px solid green;
+    border-radius: 10px;
+   
+}
+.NameDateScore {
+    text-transform: uppercase;
+    color:firebrick;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:large;
+}
+
+.textName
+{
+    color:darkgoldenrod;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:30px;
+    display:inline;
+}
+
+.textDate{
+    color: magenta;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    display: inline;
+}
+
+.textScore {
+    color: darkgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    display: inline;
+}
+
+.Notes 
+{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.Notes2 {
+    text-align: left;
+    background-color: maroon;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.txtCorrectAnswerNew {
+    width: 98%;
+    height: 98%;
+    border: solid #0adaf7;
+    color: #808080;
+    text-align: center;
+    background-color: #ffd300;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,263 @@
+﻿.FractionInputNum {
+    width: 100%;
+    height: 100%;
+    border-bottom: solid #554b4b;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    text-align: center;
+    color: indianred;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    background-color: darkgreen;
+}
+
+.ErrorText {
+    background-color: yellow;
+    color: orangered;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+    border: 3px solid orange;
+    width: 100px;
+    height: 50px;
+}
+.TdLower {
+    width: 100%;
+    height: 100%;
+    border-bottom: solid #554b4b;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    background-color: brown;
+}
+.TdDeno {
+    width: 100%;
+    height: 100%;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    background-color: brown;
+}
+.SVGTriangle {
+    fill: transparent;
+    stroke: yellowgreen;
+    stroke-width: 4;
+}
+.SVGRectangle{
+    fill:cadetblue ;
+    stroke: blueviolet;
+    stroke-width: 4;
+}
+
+.SVGRatioAngle {
+    fill: ButtonShadow;
+    stroke: orchid;
+    stroke-width: 4;
+}
+.SVGTriangleVertexName {
+    
+    stroke: crimson;
+    font-size:x-large;
+    font-family:'Times New Roman', Times, serif;
+}
+.InputStatement {
+    color: crimson;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 20px;
+}
+
+.InputRightAngleAt{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: blueviolet;
+    background-color: antiquewhite;
+}
+
+.InputRatioAngle {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: crimson;
+    background-color: antiquewhite;
+}
+
+
+.InputTextTriangle {
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: antiquewhite;
+    color: orangered;
+}
+
+.InputTextTriangleAtMouseUp {
+    text-transform: uppercase;
+    font-size: 10px;
+    color: gray;
+    background-color: white;
+}
+
+.rotateText {
+    -ms-transform: rotate(90deg); /* IE 9 */
+    transform: rotate(90deg);
+}
+
+
+.TrigoTest {
+    width: 100%;
+    height: 100%;
+    border-bottom: solid #554b4b;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    text-align: center;
+    color: indianred;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background-color: cornflowerblue;
+}
+
+.txtCorrectAnswer {
+    width: 98%;
+    height: 98%;
+    border: solid #0adaf7;
+    color: #808080;
+    text-align: center;
+    background-color: #ffd300;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-transform:uppercase;
+}
+.TestSolution {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: blueviolet;
+    background-color: antiquewhite;
+    width:75px;
+    text-align:center;
+
+}
+.InputTopStatementA {
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+    background-color: burlywood;
+    color: darkred;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 20px;
+}
+
+.InputTopStatementB {
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+    background-color: darkgrey;
+    color: darkred;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 20px;
+}
+
+.InputSecondRow {
+    text-transform: uppercase;
+    width: 100%;
+    height: 100%;
+    background-color: darkkhaki;
+    color: darkorchid;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 15px;
+}
+.Inputserial {
+    width: 100%;
+    height: 100%;
+    background-color: cadetblue;
+    color: firebrick;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 25px;
+}
+.TrSpecificTable ,td {
+    border: solid 2px black;
+}
+
+.TrSpecificTableMainHeader {
+    width: 100%;
+    height: 100%;
+    border: solid 2px;
+    text-align: center;
+    color: darkolivegreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: coral;
+}
+
+.TrSpecificTableHeader {
+    width: 100%;
+    height: 100%;
+    border: solid 2px;
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    background-color: darkgreen;
+}
+.TrSpecificTableData1 {
+    width: 100%;
+    height: 100%;
+    border: solid 2px black;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color: indianred;
+    font-weight: 800;
+}
+.TrSpecificTableData2 {
+    width: 100%;
+    height: 100%;
+    border: solid 2px black;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color: burlywood;
+    font-weight: 800;
+}
+
+.InputTextSpecificAngle {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: gray;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.MatrixOrderNew {
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    width: 100%;
+    height: 100%;
+}
+.MatrixOrderLabel {
+    color: palevioletred;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    width: 50%;
+    height: 100%;
+}
+
+.TDINPUTNEW {
+    border: 3px solid orange;
+    width: 300px;
+    height: 150px;
+
+}

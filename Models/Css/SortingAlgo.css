@@ -1,0 +1,336 @@
+﻿
+
+.MatrixInput {
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+    width:600px;
+}
+.SortingValue {
+    border: 1px palevioletred solid;
+    background-color: #808080;
+    color: white;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 200;
+}
+
+.SortingValueSwap {
+    border: 1px palevioletred solid;
+    background-color: chartreuse;
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 200;
+}
+.SortingComparision{
+    border: 1px palevioletred solid;
+    background-color: darkslategrey;
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 200;
+}
+.SortingValueSwapB {
+    border: 1px palevioletred solid;
+    background-color: darkblue;
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 200;
+}
+
+
+.TextInfo {
+    border: 2px palevioletred solid;
+    background-color: antiquewhite;
+    color: crimson;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+.TextInfoA {
+    border: 6px palevioletred solid;
+    background-color: cadetblue;
+    color: chocolate;
+    font-size: 45px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    
+}
+.CUMILATIVE {
+    border: 3px palevioletred solid;
+    background-color: darkviolet;
+    color: white;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.INFO {
+    border: 3px palevioletred solid;
+    background-color: orangered;
+    color: cornsilk;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+}
+
+.INFO1 {
+    border: 3px palevioletred solid;
+    background-color: orangered;
+    color: white;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+}
+.INFO2 {
+    border: 3px palevioletred solid;
+    background-color: maroon;
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    text-align: left;
+}
+.INFO3 {
+    border: 3px palevioletred solid;
+    background-color: darkolivegreen;
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    text-align: left;
+    
+}
+.INFO4 {
+    border: 3px palevioletred solid;
+    background-color: deeppink;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    text-align: left;
+}
+.INFO5 {
+    border: 3px palevioletred solid;
+    background-color: darkmagenta;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    text-align: left;
+}
+.INFO6 {
+    border: 3px palevioletred solid;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    text-align: left;
+}
+.KeyElement {
+    border: 10px palevioletred solid;
+    background-color: darkgreen;
+    color: white;
+    font-size: 35px;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
+.ArrayIndex {
+    border: 2px darkolivegreen solid;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-decoration:underline;
+}
+
+.FinalAnswer{
+    border: 8px palevioletred solid;
+    background-color: darkgoldenrod;
+    color: white;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.HyperLink {
+    background-color: darkgrey;
+    color: chartreuse;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    text-align: left;
+    text-decoration: underline;
+}
+.Heading1{
+    border: 8px palevioletred solid;
+    background-color: brown;
+    color: white;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.Heading2 {
+    border: 8px palevioletred solid;
+    background-color: brown;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.FinalAnswerHeading {
+    border: 8px palevioletred solid;
+    background-color: darkkhaki;
+    color: white;
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.ErrorElement {
+    border: 8px palevioletred solid;
+    background-color: darkkhaki;
+    color: red;
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.LargerValue{
+    border: 3px palevioletred solid;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 200;
+}
+
+.SmallerValue {
+    border: 3px palevioletred solid;
+    background-color: chocolate;
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 200;
+}
+
+.LargerValueText {
+    border: 3px palevioletred solid;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-weight: 200;
+}
+
+.SmallerValueText {
+    border: 3px palevioletred solid;
+    background-color: chocolate;
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-weight: 200;
+}
+
+.CrossedEachOther {
+    border: 3px palevioletred solid;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    text-align: left;
+    font-weight: 200;
+}
+
+.SVGLine{
+    fill: transparent;
+    stroke: yellowgreen;
+    stroke-width: 4;
+}
+
+.SVGLine1{
+    fill: transparent;
+    stroke-width: 4;
+}
+
+.SVGCircle {
+    fill: transparent;
+    stroke: magenta;
+    stroke-width: 2;
+}
+.SVGRectagle {
+    fill: cadetblue;
+    stroke: burlywood;
+    stroke-width: 5;
+}
+
+.SVGRectagleUpdated {
+    fill: magenta;
+    stroke: crimson;
+    stroke-width: 5;
+}
+.SVGCircleColor {
+    fill: yellowgreen;
+    stroke: magenta;
+    stroke-width: 2;
+}
+.SVGCircleIternal {
+    fill: dodgerblue;
+    stroke: gold;
+    stroke-width: 3;
+}
+.SVGCircleLeaf {
+    fill: chocolate;
+    stroke: gold;
+    stroke-width: 3;
+}
+.SVGInFinity{
+    fill: orangered;
+    stroke: white;
+    stroke-width: 3;
+}
+
+.SVGMODNEW{
+    fill: darkred;
+    stroke: gold;
+    stroke-width: 3;
+}
+.SVGCircleUpdated {
+    fill: green;
+    stroke: crimson;
+    stroke-width: 4;
+}
+
+.SVGCircleSelected {
+    fill: grey;
+    stroke: white;
+    stroke-width: 5;
+}
+.SVGArrow {
+    fill: green;
+    stroke: olive;
+    stroke-width: 2;
+}
+
+.SVGMODNEW1 {
+    fill: yellow;
+    stroke: gold;
+    stroke-width: 3;
+}
+.SVGElement{
+    stroke: darkblue;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.SVGElementH {
+    stroke: chocolate;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}

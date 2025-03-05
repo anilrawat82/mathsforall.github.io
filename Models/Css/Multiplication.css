@@ -1,0 +1,121 @@
+﻿table {
+    border: 1px solid green;
+}
+
+th {
+    border: 3px solid #808080;
+    width: 100px;
+    height: 50px;
+}
+
+tr, td {
+    border: 3px solid orange;
+    width: 100px;
+    height: 50px;
+}
+
+.DigitCell {
+    width: 100px;
+    border: solid #554b4b;
+    color: lightseagreen;
+    
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.DigitCellEmpty {
+    width: 100px;
+    border: solid #554b4b;
+    color: cornflowerblue;
+    background-color:antiquewhite;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+
+.AddSignValue {
+    width: 50px;
+    border: solid brown;
+    background-color: blueviolet;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.AnswerCell {
+    width: 98%;
+    height: 98%;
+    border: none;
+    color: white;
+    text-align: center;
+    background-color: cornflowerblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.CrossCell {
+    width: 100px;
+    border: solid #554b4b;
+    color: blueviolet;
+    background-color: palevioletred;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.CarryOver {
+    width: 98%;
+    height: 98%;
+    border: solid #554b4b;
+    color: white;
+    text-align: center;
+    background-color: #808080;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.FinalAnswerCell {
+    width: 98%;
+    height: 98%;
+    border-top: solid darkmagenta 5px;
+    border-bottom: solid darkmagenta 5px;
+    color: brown;
+    text-align: center;
+    background-color: orange;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    
+}
+.CalculateAnswer {
+    align-content: center;
+    background-color: #756969;
+    color: white;
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.trOne, .tdOne {
+    border: 3px solid #808080;
+    width: 100px;
+    height: 50px;
+}
+
+.trTwo, .tdTwo {
+    border: 3px solid #0094ff;
+    width: 100px;
+    height: 50px;
+}
+.MatrixOrder {
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight:400;
+}
+.CalculateAnswer:hover {
+    cursor: pointer;
+    background-color: brown;
+}
+

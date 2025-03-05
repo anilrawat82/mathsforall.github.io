@@ -1,0 +1,84 @@
+﻿.MatrixSmall {
+    width: 500px;
+    border: solid #554b4b;
+    text-align: left;
+    color: darkmagenta;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color: burlywood;
+}
+
+.TestAnswer {
+    width: 150px;
+    height: 100%;
+    border: solid #554b4b;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: #808080;
+}
+
+.TestSolution {
+    width: 100%;
+    height: 100%;
+    border: solid #554b4b;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    background-color: chartreuse;
+    text-align: center;
+    vertical-align: middle;
+    color: dimgray;
+}
+
+
+
+/*//Factorization Class 8th*/
+.FactorizeValue {
+    color: darkred;
+    background-color: burlywood;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+}
+
+.FactorizeExpression {
+    color: firebrick;
+    background-color: burlywood;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+}
+
+.FactorHeader {
+    border: 5px lightseagreen solid;
+    background-color: crimson;
+    color: white;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.FactorInfo {
+    border: 10px cornflowerblue solid;
+    background-color: chocolate;
+    color: white;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.FactorAnswer {
+    border: 10px cornflowerblue solid;
+    background-color: chocolate;
+    color: chartreuse;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.FactorHeaderA {
+    border: 5px lightseagreen solid;
+    background-color: darkmagenta;
+    color: darkkhaki;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+﻿.MatrixOrder {
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.InputLabel {
+    color: palevioletred;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.TDINPUT {
+    border: 3px solid orange;
+    width: 100px;
+    height: 50px;
+}
+.CTestYourSelf {
+    width: 100%;
+    height: 100%;
+    border: solid #554b4b;
+    color: #0094ff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 40px;
+    background-color: antiquewhite;
+    text-align: center;
+}

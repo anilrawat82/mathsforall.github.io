@@ -1,0 +1,220 @@
+﻿
+.CalculateAnswer {
+    align-content: center;
+    background-color: #756969;
+    color: white;
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+.CalculateAnswer:hover 
+{
+    cursor:pointer;
+    background-color: brown;
+    
+
+}
+
+.TopHeader {
+    border: 10px lightseagreen solid;
+    background-color: #0094ff;
+    color: white;
+    font-size: 55px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.CalculateButton {
+    position: center;
+}
+.SignMatrix {
+    border: 5px lightseagreen solid;
+    background-color: bisque;
+    
+    color: blueviolet;
+    font-size: 55px;
+    font-family: Bahnschrift;
+    text-align: center;
+}
+.Variable2Value {
+    border: 5px #c0eec0 solid;
+    background-color: bisque;
+    color: blueviolet;
+    font-size: x-large;
+    font-family: Bahnschrift;
+}
+
+
+.SubstituteVariable2Value {
+    border: 8`px #b41919 solid;
+    color: #ff6a00;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.LinearInOneVariable 
+{
+    border: 3px cornflowerblue solid;
+    background-color: #756969;
+    color:white;
+}
+
+.LinearInOneVariableSol {
+    
+    background-color: lightseagreen;
+    color: white;
+}
+
+.TwoVariableSolution {
+    border: 12px #c0eec0 solid;
+    background-color: #808080;
+    color: #b41919;
+    text-align:center;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+.Error
+{
+    color:orangered;
+    font-family:'Times New Roman', Times, serif;
+    background-color:bisque;
+}
+
+}
+table {
+    border: 1px solid green;
+}
+th {
+    border: 3px solid #808080;
+    width: 100px;
+    height: 50px;
+}
+tr, td{
+    border: 3px solid orange;
+    width: 100px;
+    height: 50px;
+}
+.MatrixOrder {
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.AMatrixvalue {
+    width: 90%;
+    height: 80%;
+    border: solid #554b4b;
+    color: lightseagreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+
+
+.EqualMatrixvalue
+{
+    border: solid #554b4b;
+    color: lightseagreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align:center;
+}
+.BMatrixvalue {
+    width: 90%;
+    height: 80%;
+    border: solid #554b4b;
+    color: #b41919;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.SolMatrixvalue {
+    
+    width: 100px;
+    height: 50px;
+    text-align:center;
+    border: 4px solid #808080;
+    color: cornflowerblue;
+    font-family:'Franklin Gothic';
+    font-size: 40px;
+}
+
+/*For Lup Decomposition*/
+.PerMutationPivot {
+    width: 98%;
+    height: 95%;
+    background-color: blueviolet;
+    color: #f0fbfa;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: 3px solid #b41919;
+}
+.AMatrixvalueLUP {
+    width: 98%;
+    height: 95%;
+    border: solid #554b4b;
+    color: lightseagreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.BMatrixvalueLUP {
+    width: 98%;
+    height: 95%;
+    border: solid #554b4b;
+    color: #b41919;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.SubMatrixSol {
+    width: 98%;
+    height: 95%;
+    background-color: lightseagreen;
+    color: #f0fbfa;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: 3px solid #b41919;
+}
+
+.ShadedColRow {
+    width: 98%;
+    height: 95%;
+    background-color: #808080;
+    color: #f0fbfa;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: 3px solid #b41919;
+}
+
+.XYVariable {
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    border: 3px solid orange;
+    color: darkgreen;
+    background-color: #808080;
+}
+
+/*// Tooltip/*/
+
+.tooltip {
+    display: inline;
+    position: relative;
+    text-decoration: none;
+    top: 0px;
+    left: 4px;
+}
+    .tooltip:hover:after {
+        
+        background: white;
+        border-radius: 5px;
+        top: -2px;
+        color: brown;
+        content: attr(alt);
+        left: 6px;
+        padding: 1px 5px;
+        position: absolute;
+        z-index: 98;
+        width: 1350px;
+    }  

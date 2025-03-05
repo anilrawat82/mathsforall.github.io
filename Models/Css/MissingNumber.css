@@ -1,0 +1,20 @@
+﻿.AnswerMissingCell {
+    width: 98%;
+    height: 98%;
+    border: solid #554b4b;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+.AMatrixvalue {
+    width: 100px;
+    height:50px;
+    border: solid #554b4b;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    background-color: cornflowerblue;
+}

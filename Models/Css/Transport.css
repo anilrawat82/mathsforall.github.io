@@ -1,0 +1,468 @@
+﻿
+.UnBalanceProblem {
+    border: 5px solid #808080;
+    color:brown;
+}
+
+
+.UIVI 
+{
+    color: forestgreen;
+}
+
+.TransCostText {
+    width: 90%;
+    height: 80%;
+    border: solid #554b4b;
+    color: lightseagreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    
+}
+.TR_TD_Heading {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: solid #839b48;
+    color:blueviolet;
+    background-color:antiquewhite;
+}
+
+
+.TableCost {
+    background-color: darkgray;
+    border: solid 1px green;
+    width: 100%;
+    height: 100%;
+}
+.CostTD {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+   
+    font-size: 20px;
+    color: purple;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border: solid;
+    border-style: hidden !important;
+    background-color:burlywood;
+}
+
+
+.CIJ_VI_UI {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 30px;
+    color: darkmagenta;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: chartreuse;
+    border-style: hidden !important;
+}
+.DemandSupplyInput {
+    color: palevioletred;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.AllocationDone {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 30px;
+    color: brown;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: darkgoldenrod;
+    border-style: hidden !important;
+}
+.Empty, .CostTDA {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 30px;
+    color: brown;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-style: hidden !important;
+}
+
+
+.AllocationCurrent {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: wheat;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    border-style: hidden !important;
+}
+
+.CalCulateBTN {
+    float: right;
+    text-align: center;
+    width: 50%;
+    height: 50px;
+    font-size: xx-large;
+}
+
+.DemandSupplyValue {
+    border: 3px ridge green;
+    width: 90%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: chocolate;
+    font-size: 40px;
+    height: 80%;
+}
+.TransportMethodLabel {
+    color: cadetblue;
+    font-size: x-large;
+}
+.ModiOptionChecked {
+    pointer-events: visible;
+    opacity: 1;
+    background-color: #c1b8bf;
+    color: cadetblue;
+}
+
+.ErrorText {
+    color: red;
+}
+
+table {
+    border: 1px solid green;
+}
+
+tr, td {
+    border: 3px solid orange;
+    width: 100px;
+    height: 50px;
+}
+
+.SolutionTable {
+    border: 5px solid #808080;
+    color:coral;
+    
+}
+
+.DemandSupply {
+    border: 4px solid #0094ff;
+    text-align: center;
+    text-decoration: wavy;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: cornflowerblue;
+    font-size: 30px;
+    font-weight:100;
+}
+
+.DemandSupplyUpdated {
+    border: 5px solid #ff00dc;
+    text-align: center;
+    text-decoration: wavy;
+}
+
+.DemandSupplyStriked {
+    font-size: 25px;
+    text-decoration: line-through;
+    color: red;
+}
+
+.NewDemandSupply {
+    font-size: 25px;
+    color: palevioletred;
+}
+
+
+.VogePenalty {
+    font-size: 25px;
+    color: crimson;
+}
+
+
+.ThetaAllocation {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: aquamarine;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-style: hidden !important;
+}
+
+/*Added extra for Assignmnet */
+
+
+.TopHeader {
+    text-align: center;
+    background-color: cadetblue;
+    color: wheat;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.TopHeaderArbitary {
+    text-align: center;
+    background-color: aliceblue;
+    color: darkred;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.ShowMessage {
+    text-align: center;
+    background-color: red;
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+
+
+.MinimumJobValue {
+    text-align: center;
+    border: solid #554b4b;
+    color: chartreuse;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+
+.MinimumJobValueUpdated {
+    text-align: center;
+    border: solid #554b4b;
+    color: bisque;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.FinalSolution {
+    text-align: center;
+    border: solid #554b4b;
+    color: chartreuse;
+    background-color: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.FinalSolutionZero {
+    text-align: center;
+    border: solid #554b4b;
+    color: red;
+    background-color: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.MinimumValueInfo {
+    text-align: left;
+    background-color: darkseagreen;
+    color: firebrick;
+    font-family: Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 15px;
+}
+
+.ZeroValueInfo {
+    text-align: left;
+    background-color: green;
+    color: white;
+    font-family: Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 15px;
+}
+
+.ZeroAssigned {
+    border: solid 3px green;
+    text-align: center;
+    color: orangered;
+    background-color: dodgerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.ZeroUnassigned {
+    border: solid 3px grey;
+    text-align: center;
+    color: yellowgreen;
+    background-color: crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-decoration: line-through;
+}
+
+.ZeroAssignedInfo {
+    text-align: left;
+    background-color: antiquewhite;
+    color: magenta;
+    font-family: Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 15px;
+    border: solid 3px blue;
+}
+
+
+.TickingCell {
+    text-align: center;
+    border: solid #554b4b;
+    color: chartreuse;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    background-color: darkgray;
+}
+
+
+
+.LineCrossingCell {
+    border: solid 3px grey;
+    text-align: center;
+    color: orangered;
+    background-color: mediumaquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.MinimumTheta {
+    border: solid 3px grey;
+    text-align: center;
+    color: yellow;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+
+.ThetAdjustmentWhenLineNotCrossing {
+    border: solid 3px green;
+    text-align: center;
+    color: white;
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+.ThetAdjustmentWhenTwolineCrossing {
+    border: solid 3px green;
+    text-align: center;
+    color: white;
+    background-color: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+.FinalTopHeader {
+    text-align: center;
+    background-color: darkgray;
+    color: orange;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.FailedToAllocation {
+    text-align: center;
+    background-color: darkgray;
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.AssigmentTypeLabel {
+    color: brown;
+    font-size: x-large;
+}
+
+.AssigmentTypeOption {
+    color: chocolate;
+    font-size: x-large;
+    
+}
+
+.MaxToMinProblem {
+    text-align: center;
+    border: solid #554b4b;
+    color: white;
+    background-color: darkgoldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+
+.MaxToMinProblemHeading {
+    text-align: center;
+    background-color: blueviolet;
+    color: darkkhaki;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+
+/*////LU Decomposition*/
+
+.PermutationColumn 
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: solid blue;
+    color: darkslategrey;
+    background-color: antiquewhite;
+}
+
+.XVariable {
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    border: solid orange;
+    color: darkgreen;
+    background-color: antiquewhite;
+}
+
+
+.PLUMatrixHeading{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+    border: solid orange;
+    color: coral;
+    background-color: darkslategrey;
+}
+
+.CalculatePB {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    border: solid orange;
+    color: burlywood;
+    background-color: darkolivegreen;
+}
+
+.CalculateUXY {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    border: solid orange;
+    color: chartreuse;
+    background-color: cadetblue;
+}
+
+.CalculateLYPB {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    border: solid orange;
+    color: darksalmon;
+    background-color: grey;
+}
+
+.SolutionXY {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    border: solid orange;
+    color: darkblue;
+    background-color: darkorchid;
+}

@@ -1,0 +1,120 @@
+﻿.MatrixNew {
+    font-size: 20px;
+    color: white;
+}
+.MatrixSelected{
+    color: yellow;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+}
+.MatrixB {
+    font-size: 20px;
+    color: chartreuse;
+}
+.MatrixZero {
+    font-size: 20px;
+    color: yellow;
+}
+.MatrixVar {
+    text-align: center;
+    font-size: 20px;
+    color: cyan;
+    float: left;
+    width: auto;
+    vertical-align: central;
+}
+.MatrixEqual {
+    width: 15px;
+    height: auto;
+    text-align: center;
+    color: orange;
+    font-size:20px;
+    font-family:'Times New Roman';
+}
+
+.TDNew
+{
+    float: left;
+    width: auto;
+    height: auto;
+    text-align: center;
+    color:cornflowerblue;
+}
+
+.TDNewN {
+    float: left;
+    width: auto;
+    height: auto;
+    text-align: center;
+    color: cornflowerblue;
+    border-bottom:solid;
+}
+
+.MatrixHeader 
+{
+    float:left;
+    background-color:magenta;
+    color:chocolate;
+    text-align:center;
+}
+.MatrixName {
+    width: 75px;
+    height: auto;
+    text-align: center;
+    color: burlywood;
+    font-weight: bolder;
+    font-family:'Times New Roman';
+    font-size:18px;
+}
+
+.MatrixNameQR {
+    width: 100px;
+    height: auto;
+    text-align: center;
+    color: burlywood;
+    font-weight: bolder;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+}
+.CellRowSpan {
+    float: left;
+    width: auto;
+    height: auto;
+    text-align: center;
+    color: cornflowerblue;
+    margin-top: 40px;    
+}
+.MatrixTable {
+    width: auto;
+    height: auto;
+    border: none;
+    background-color: darkslategrey;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+}
+.ErrorElement {
+    border: 8px palevioletred solid;
+    background-color: darkkhaki;
+    color: red;
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.BackGround {
+    width: auto;
+    height: auto;
+    border: none;
+    background-color: darkslategrey;
+    color: white;
+}
+.MatrixHeader {
+    width: auto;
+    height: auto;
+    border: none;
+    color: Highlight;
+    font-weight: bolder;
+}

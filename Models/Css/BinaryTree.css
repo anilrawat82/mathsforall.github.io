@@ -1,0 +1,28 @@
+﻿table {
+    border: 1px solid green;
+}
+
+tr, td {
+    border: 3px solid orange;
+    width: 100px;
+    height: 50px;
+}
+
+
+.NodeTraversed
+{
+    background-color:#fcf000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.NodeFinal {
+    background-color: yellowgreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.TreeOptionChecked {
+    pointer-events: visible;
+    opacity: 1;
+    background-color: #c1b8bf;
+    color: cadetblue;
+}

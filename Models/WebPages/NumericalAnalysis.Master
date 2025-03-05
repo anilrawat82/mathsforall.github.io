@@ -1,0 +1,185 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="NumericalAnalysis.Master.cs" Inherits="DesignAlgorithms.Models.WebPages.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css">
+
+    <link href="../BootStrap/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../Css/MasterPage.css" />
+    <script src="../JavaScript/MasterPage.js" type="text/javascript">    </script>
+    <style>
+        .DropClassOne {
+            color: #ffd800;
+            font-size: 12px;
+        }
+
+        .auto-style1 {
+            height: 31px;
+            background-color: antiquewhite;
+            color: brown;
+            font-size: x-large;
+            font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        }
+    </style>
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+
+
+        <table>
+            <tr id="HEADER2">
+                <td colspan="2">MATHS FOR US</td>
+
+            </tr>
+            <tr>
+                <td class="MarqueeHeading">New Pages Added Recently
+                </td>
+                <td>
+                    <div class="Marquee1">
+                        <marquee onmouseover="this.stop()" onmouseout="this.start()">
+                            <a  runat="server" href="~/Models/WebPages/MatrixAnalysis/LuDecomposition.aspx">LU Decomposition</a>&nbsp;&nbsp; 
+                            <a  runat="server" href="~/Models/WebPages/MatrixAnalysis/LuDecompositionEqun.aspx">LU Decomposition Method</a>&nbsp;&nbsp; 
+                       </marquee>
+                    </div>
+                </td>
+            </tr>
+           
+            <tr>
+                <td id="TDCol1">
+                     <h3 class="CHeadLineVII">Find The Root of Equation</h3>
+                    
+                     <ul>
+                        <li><a runat="server" href="~/Models/WebPages/NumericalAnalysis/BisectionMethod.aspx">Bisection Method</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/NumericalAnalysis/FalseMethod.aspx">False Position Method</a><br />
+                        </li>
+                         <li><a runat="server" href="~/Models/WebPages/NumericalAnalysis/RamanujanMethod.aspx">Ramanujan's Method</a><br />
+                        </li>
+                         <li><a runat="server" href="~/Models/WebPages/NumericalAnalysis/GraeffeMethod.aspx">Graeffe'sMethod</a><br />
+                        </li>
+                    </ul> 
+
+                    <h3 class="CHeadLineVII">INTERPOLATION</h3>
+                    <ul>
+                        <li><a runat="server" href="~/Models/WebPages/NumericalAnalysis/NewtonForwardBackward.aspx">Generate Newton Forward & Backward Table</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/NumericalAnalysis/NewtonForwardBackwardSol.aspx">Newton Forward & Backward Method</a><br />
+                        </li>
+                         <li><a runat="server" href="~/Models/WebPages/NumericalAnalysis/LagrangesInterpolation.aspx">Lagrange Interpolation</a><br />
+                        </li>
+                         <li><a runat="server" href="~/Models/WebPages/NumericalAnalysis/HermiteInterpolation.aspx">Hermite Interpolation</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/NumericalAnalysis/NewtonDivideDifference.aspx">Newton Divide Difference</a><br />
+                        </li>
+    
+                    </ul>
+                        <h3 class="CHeadLineVII">Least Square Curve Fitting</h3>
+                    <ul>
+                        <li><a runat="server" href="~/Models/WebPages/NumericalAnalysis/LeastSquaremethod.aspx">Fitting Straight line,Multi Linear,polynomial and weighted</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/NumericalAnalysis/LeastSquareNonLinearLaw.aspx">Linearization of Nonlinear Laws</a><br />
+                        </li>
+                    </ul>
+
+                     <h3 class="CHeadLineVII">Numerical Differentiation and Integration</h3>
+                    <ul>
+                        <li><a runat="server" href="~/Models/WebPages/NumericalAnalysis/NumericalDifferentiation.aspx">Numerical Differentiation</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/NumericalAnalysis/NumericalIntegration.aspx">Trapezoial,Simpson's 1/3 & 3/8</a><br />
+                        </li>
+                        
+                    </ul>
+
+                     <h3 class="CHeadLineVII">Matrix Analysis</h3>
+                    <ul>
+                        <li><a runat="server" href="~/Models/WebPages/Matrices/Determinant.aspx">Determinant of Matrix</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/MatrixAnalysis/RankofMatrix.aspx">Rank of Matrix</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/MatrixAnalysis/LuDecomposition.aspx">LU Decomposition</a><br />
+                        </li>                   
+                        <li><a runat="server" href="~/Models/WebPages/MatrixAnalysis/EigenValue.aspx">Eigenvalue and Eigenvector</a><br />
+                        </li>                   
+                        <li><a runat="server" href="~/Models/WebPages/MatrixAnalysis/CayleyHamiltonTheorem.aspx">Cayley–Hamilton theorem</a><br />
+                        </li>                   
+
+                    </ul>
+                    <h3 class="CHeadLineVII">Solution of Linear systems- Direct Method</h3>
+                    <ul>
+
+                        <li><a runat="server" href="~/Models/WebPages/MatrixAnalysis/CramersRule.aspx">Cramers Rule</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/MatrixAnalysis/GaussElimination.aspx">Gauss Elimination</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/MatrixAnalysis/GaussJordan.aspx">Gauss Jordan</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/MatrixAnalysis/LuDecompositionEqun.aspx">LU Decomposition Method</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/MatrixAnalysis/LeastSquareApproximation.aspx">Least Sqaure Approximation</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/MatrixAnalysis/SolvingIllConditionSystem.aspx">Ill-Conditioned Linear systems </a><br />
+                        </li>
+                    </ul>
+                        <h3 class="CHeadLineVII">Solution of Linear systems- Iterative Method</h3>
+                    <ul>
+
+                        <li><a runat="server" href="~/Models/WebPages/MatrixAnalysis/JacobiMethod.aspx">Jacobi Method</a><br />
+                        </li>
+                        <li><a runat="server" href="~/Models/WebPages/MatrixAnalysis/GaussSidelIteration.aspx">Gauss Seidel</a><br />
+                        </li>
+                        
+                    </ul>
+                     <h3 class="CHeadLineVII">Inverse of Matrix</h3>
+                    <ul>
+                        <li><a runat="server" href="~/Models/WebPages/MatrixAnalysis/GaussJordanInverse.aspx">Gauss Jordan Metod</a><br />
+                        </li>
+                        
+                    </ul>
+                    <h3 class="CHeadLineVII"><a runat="server" href="~/Models/WebPages/MatrixAnalysis/HouseHolderMethod.aspx">House Holder Method</a></h3>
+                    <h3 class="CHeadLineVII"><a runat="server" href="~/Models/WebPages/MatrixAnalysis/GramSchmidtorthogonalization.aspx">Gram Schmidt Orthogonalization</a></h3>
+                    <h3 class="CHeadLineVII"><a runat="server" href="~/Models/WebPages/MatrixAnalysis/QRDecomposition.aspx">QR Decomposition</a></h3>
+                    <h3 class="CHeadLineVII"><a runat="server" href="~/Models/WebPages/MatrixAnalysis/SVDecomposition.aspx">Single Value Decomposition</a></h3>
+                    
+                </td>
+
+                <td id="TDCol2">
+                    <div>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </td>
+            </tr>
+            <tr id="Footer">
+                <td style="text-align: center" colspan="2">
+                    <a runat="server" href="~/Models/WebPages/MySelf.aspx">About Me</a><br />
+                    <%--  <a runat="server"  href="~/Models/WebPages/Email.aspx">mathsforus2021@gmail.com</a><br />--%>
+                </td>
+
+            </tr>
+            <tr id="Footer">
+                <td style="text-align: center" colspan="2" class="auto-style1">
+                    <asp:Label ID="VistorCounts" runat="server" Text="Total Visitor :"></asp:Label>
+                </td>
+
+            </tr>
+            <tr class="CDisclaimer">
+                <td style="text-align: center" colspan="2">Disclaimer:
+                    The information provided by “us” on www.mathsforus.com is for general informational purposes only. All information on the Site is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability or completeness of any information on the Site .
+                     Under no circumstance shall we have any liability to you for any loss or damage of any kind incurred as a result of the use of the site  or reliance on any information provided on the site . Your use of the site  and your reliance on any information on the site  is solely at your own risk. 
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>

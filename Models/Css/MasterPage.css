@@ -1,0 +1,91 @@
+﻿#HEADER2 {
+    font-family: 'Swis721 Blk BT','Times New Roman', Times, serif;
+    font-size: 100px;
+    text-align: center;
+    background-color: #517873;
+    height: 215px;
+    color:white;
+}
+
+#Footer {
+    background-color: #ffd800;
+    height: 75px;
+    color: coral;
+    font: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table {
+    width: 100%;
+}
+
+#TDCol1 {
+    width: 30%;
+    background-color: #302f2f;
+    height: 800px;
+    text-align: justify;
+}
+
+#TDCol2 {
+    width: 70%;
+    height: 800px;
+}
+.CHeadLine 
+{
+
+    color:antiquewhite;
+}
+.CHeadLineVII
+{
+    text-transform:capitalize;
+    color: chartreuse;
+}
+
+    .CDisclaimer {
+        background: #808080;
+        color: darkkhaki;
+    }
+.MarqueeHeading {
+    font-family: Calibri;
+    font-size: xx-large;
+    color: cadetblue;
+    text-transform: uppercase;
+    background-color:crimson;
+    text-align:right;
+        
+}
+.Marquee1 
+{    font-family: Arial;
+    font-size: large;
+    color: darkmagenta;
+    text-transform: uppercase;
+    background-color:darkmagenta;
+    
+}
+
+.Marquee2
+{
+    font-family: 'Times New Roman';
+    font-size: large;
+    color: firebrick;
+    text-transform: uppercase;
+    
+}
+a:link {
+    color: #0094ff;
+}
+a:visited 
+{
+    color: #ffffff;
+}
+
+
+.AboutMe:hover {
+    color: darkgreen;
+}
+a:hover {
+    color: #808080;
+}
+a:active {
+    color: #0094ff;
+}

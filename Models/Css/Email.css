@@ -1,0 +1,50 @@
+﻿table {
+    border: 2px solid green;
+}
+
+th {
+    border: 3px solid #808080;
+    width: 100px;
+    height: 50px;
+}
+
+tr, td {
+    border: 3px solid orange;
+    width: 100px;
+    height: 50px;
+}
+
+.MatrixOrder {
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.CSendEmail {
+    width: 100%;
+    height: 100%;
+    border: solid #554b4b;
+    color: #0094ff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 40px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.EmailSendStatus {
+    width: 100%;
+    height: 100%;
+    border: solid #554b4b;
+    color: #0094ff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 40px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.CSendEmail:hover {
+    cursor: pointer;
+    background-color: brown;
+}
+

@@ -1,0 +1,194 @@
+﻿
+/**Addition And Subtraction*/
+.CarryOver
+{
+    width: 50px;
+    height: 50px;
+    border: solid #554b4b;
+    color: #7d4747;
+    text-align: center;
+    background-color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.DigitCell
+{
+    width: 50px;
+    height: 50px;
+    border: solid #554b4b;
+    color: darkslategray;
+    background-color: burlywood;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+
+.AddSignValue {
+    width: 50px;
+    height: 50px;
+    border: solid brown;
+    background-color: blueviolet;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.TDAddSub
+{
+    width:50px;
+    height:50px;
+}
+
+
+.AnswerCell {
+    width: 50px;
+    height: 50px;
+    border: solid #554b4b;
+    color: white;
+    text-align: center;
+    background-color: cornflowerblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.trOne, .tdOne {
+    border: 3px solid #808080;
+    width: 50px;
+    height: 50px;
+}   
+.trTwo, .tdTwo {
+    border: 3px solid #0094ff;
+    width: 50px;
+    height: 50px;
+}
+
+.AnswerCarryOverValue {
+    width: 50px;
+    height: 50px;
+    border: solid #554b4b;
+    color: white;
+    text-align: center;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    
+}
+/*.SignMatrix {
+    border: 5px lightseagreen solid;
+    background-color: bisque;
+    color: blueviolet;
+    font-size: 55px;
+    font-family: Bahnschrift;
+    text-align: center;
+}*/
+
+
+
+.AnswerMissingCell {
+    width: 100%;
+    border: solid #554b4b;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+/*Largest And Smallest*/
+.MatrixSmall {
+    width: 100%;
+    border: solid #554b4b;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    background-color: #7d4747;
+}
+
+
+.MatrixLarge {
+    width: 100%;
+    border: solid #554b4b;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    background-color: #0aa1a1;
+}
+.MatrixAnswer {
+    width: 100px;
+    border: solid #554b4b;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    background-color:brown;
+}
+
+/*Counting*/
+
+.txtTo{
+    width: 100px;
+    border: solid #0adaf7;
+    background-color: #808080;
+    color:white;
+    text-align:center;
+}
+.txtWords {
+    width: 300px;
+    border: solid #0adaf7;
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
+.txtX {
+    width: 100px;
+    border: solid #808080;
+    background-color: #808080;
+    color: white;
+    text-align: center;
+}
+.txtXValue {
+    width: 100px;
+    border: solid brown;
+    background-color: #808080;
+}
+.txtEmptyNumber {
+    width: 100px;
+    border: solid brown;
+    background-color: #e3e0ea;
+}
+
+
+.txtNumber {
+    width: 100px;
+    border: solid #554b4b;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    cursor: text;
+    background-color:cornflowerblue;
+    
+}
+
+.txtTable {
+    width: 100px;
+    border: solid #554b4b;
+    color: lightseagreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align:center;
+}
+
+
+
+.txtNumberWord {
+    width: 100%;
+    border: solid #554b4b;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    background-color:cornflowerblue;
+}
+
+

@@ -1,0 +1,126 @@
+﻿.IdentityType  {
+    text-align:center;
+    text-transform: uppercase;
+    background-color:cornsilk;
+    color: crimson;
+    font-size: large;
+    font-family: 'Berlin Sans FB';
+
+}
+
+.InputIDT1 {
+    width: 100%;
+    text-transform: uppercase;
+    color: darkred;
+    background-color:darkgray;
+    font-size: 30px;
+    font-family: 'Book Antiqua';
+    font-weight: bolder;
+}
+
+.InputIDT2 {
+    width: 100%;
+    text-transform: uppercase;
+    color: indigo;
+    background-color:darkkhaki;
+    font-size: 30px;
+    font-family: 'Book Antiqua';
+    font-weight: bolder;
+}
+
+.InputIDS1 {
+    width: 100px;
+    height: 50px;
+    text-transform: uppercase;
+    color: darkred;
+    background-color: darkgray;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.InputIDS2 {
+    width: 100px;
+    height: 50px;
+    text-transform: uppercase;
+    color: indigo;
+    background-color: darkkhaki;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.MatrixSmall {
+    width: 350px;
+    border: solid #554b4b;
+    text-align: left;
+    color: darkmagenta;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: burlywood;
+}
+
+.TestAnswer {
+    width: 300px;
+    height: 100%;
+    border: solid #554b4b;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: #808080;
+}
+
+.TestSolution {
+    width: 100%;
+    height: 100%;
+    border: solid #554b4b;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    background-color: chartreuse;
+    text-align: center;
+    vertical-align: middle;
+    color: dimgray;
+}
+.FactorizeValue {
+    color: darkred;
+    background-color: burlywood;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+}
+
+
+.FactorizeExpression {
+    color: firebrick;
+    background-color: burlywood;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+}
+
+.FactorHeader {
+    border: 5px lightseagreen solid;
+    background-color: crimson;
+    color: white;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.FactorInfo {
+    border: 10px cornflowerblue solid;
+    background-color: chocolate;
+    color: white;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+
+.FactorAnswer {
+    border: 10px cornflowerblue solid;
+    background-color: chocolate;
+    color: chartreuse;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+

@@ -1,0 +1,82 @@
+﻿.FractionInputNum {
+    width: 100%;
+    height: 100%;
+    border-bottom: solid #554b4b;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    text-align: center;
+    color: #0094ff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    background-color: #b6ff00;
+}
+
+.FractionInputdeno {
+    width: 100%;
+    height: 100%;
+    border-bottom: none;
+    border-left: none;
+    border-top: solid #554b4b;
+    border-right: none;
+    text-align: center;
+    color: #0094ff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    background-color: #b6ff00;
+}
+.MixedFractionInput 
+{
+    width: 100%;
+    height: 100%;
+    border: solid #554b4b;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    background-color: #808080;
+}
+.MixedFractionInputNum {
+    width: 100%;
+    height: 100%;
+    border-bottom: solid #554b4b;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    background-color: #ff6a00;
+}
+.MixedFractionInputdeno {
+    width: 100%;
+    height: 100%;
+    border-bottom: none;
+    border-left: none;
+    border-top: solid #554b4b;
+    border-right: none;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    background-color: #ff6a00;
+}
+
+.FractionTestSolution {
+    width: 100%;
+    height: 100%;
+    border: solid #554b4b;
+    text-align: center;
+    text-anchor:middle;
+    
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: #ff6a00;
+}
+.Test
+{
+
+
+}
